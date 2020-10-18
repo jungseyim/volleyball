@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "About.svelte"
+  ],
+  "sourcesContent": [
+    "<style>\n    .about {\n        position: relative;\n        text-align: center;\n    }\n    .text {\n        position: absolute;\n        top: 8px;\n        left: 16px;\n        color: blue;\n    }\n</style>\n\n<div class=\"about\">\n    <img src=\"/assets/images/teampicture.jpg\" alt=\"\" />\n    <h1 class=\"text\">\n        Welcome to this website application! This application is meant to help\n        new volleyball players or people interested in the sport buy the\n        necessary equipment to play. The prices of the equipment have been\n        updated as of 10/18/2020!\n    </h1>\n</div>\n"
+  ],
+  "names": [],
+  "mappings": "AACI,MAAM,cAAC,CAAC,AACJ,QAAQ,CAAE,QAAQ,CAClB,UAAU,CAAE,MAAM,AACtB,CAAC,AACD,KAAK,cAAC,CAAC,AACH,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,GAAG,CACR,IAAI,CAAE,IAAI,CACV,KAAK,CAAE,IAAI,AACf,CAAC"
+}
