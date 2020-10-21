@@ -1,11 +1,16 @@
 <script>
   import Item from "./Item.svelte";
-  import cart, { cartTotal } from "../../stores/cart";
+  import cart, { cartTotal, setStorageCart } from "../../stores/cart";
   import { fly } from "svelte/transition";
   import { flip } from "svelte/animate";
   import About from "../../pages/About.svelte";
   import App from "../../App.svelte";
   import BigNavbar from "../Navbar/BigNavbar.svelte";
+  import { afterUpdate } from "svelte";
+
+  afterUpdate(() => {
+    setStorageCart($cart);
+  });
 </script>
 
 <section class="cart-items">

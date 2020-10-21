@@ -7,7 +7,7 @@
         position: absolute;
         top: 8px;
         left: 16px;
-        color: blue;
+        color: yellow;
     }
 </style>
 

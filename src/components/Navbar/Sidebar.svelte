@@ -2,6 +2,7 @@
   import links from "../../constants/links";
   import { link } from "svelte-routing";
   import globalStore from "../../stores/globalStore";
+  import LoginLink from "../LoginLink.svelte";
 
   import { fly, fade } from "svelte/transition";
 </script>
@@ -19,12 +20,9 @@
       </button>
     </div>
     <!--site logo-->
-    <img
-      src="/assets/images/logo.svg"
-      class="logo sidebar-logo"
-      alt="razors logo" />
+    <img src="/assets/images/logo.jpg" class="logo sidebar-logo" alt="" />
     <!-- links -->
-    <u1 class="sidebar-links">
+    <u1 class="sidebar-links" style="list-style: none">
       {#each links as sideLink}
         <li>
           <a
@@ -35,6 +33,9 @@
             }}>{sideLink.text}</a>
         </li>
       {/each}
+      <li>
+        <LoginLink />
+      </li>
     </u1>
   </div>
 </div>
