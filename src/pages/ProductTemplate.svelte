@@ -3,7 +3,7 @@
 
   //global store
   import { addToCart } from "../stores/cart";
-  import products from "../stores/defaultProducts";
+  import products from "../stores/products";
   import Loading from "../components/Loading.svelte";
   import { link } from "svelte-routing";
 
