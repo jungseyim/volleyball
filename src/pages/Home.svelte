@@ -3,7 +3,7 @@
   import { link } from "svelte-routing";
 
   //featured products
-  import Featured from "../Components/Products/Featured.svelte";
+  import Featured from "../components/Products/Featured.svelte";
 </script>
 
 <Hero>
